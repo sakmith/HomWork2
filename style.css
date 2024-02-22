@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.degree{
+    width: 1100px;
+    height: 770px;
+    overflow: hidden;
+    margin:50px auto;
+    border: 70px solid transparent;
+    border-image: url(../img/border.png) 105 round;
+    position: relative;
+}
+.degree article{
+    width: 100%;
+    height: 100%;
+    border: 6px inset #f95555;
+    padding: 20px;
+}
+.degree .bg{
+    width: 100%;
+    height: 100%; 
+    background-image: url(../img/rupp.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    opacity: 0.08;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.degree article .header, .degree article .center{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.degree article .header h3{
+    width: 100%;
+    font-family: khmer o;
+    font-weight: bold;
+    font-size: 14px;
+    clear: both;
+}
+h1{
+    font-family: moul;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    color: #151515;
+}
+h2{
+    font-family: moul;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #151515;
+}
+.center h5 span strong{
+    font-family: moul;
+    font-weight: 600;
+    color: #1a1919;
+}
+h4 span{
+    width: 50%;
+    font-family: Khmer OS Battambang;
+    float: left;
+}
+h5{
+    font-family: Khmer OS Battambang;
+    font-size: 12px;
+}
+h5 span{
+    width: 50%;
+    float: left;
+}
+article p{
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    font-family: Khmer OS Battambang;
+}
+article > h5{
+    clear: both;
+    width: 100%;
+    background-color: black;
+}
+article > h5 span{
+    text-align: center;
+    width: 33%;
+}
+article > h5 span img{
+    border-radius: 2px;
+}
+article > h5 span h3{
+    font-weight: bold;
+}
+
